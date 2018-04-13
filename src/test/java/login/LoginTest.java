@@ -42,6 +42,7 @@ public class LoginTest {
 
         Assert.assertTrue(expectedName.equals(actualName.getText()));
 
+        //driver.quit();
         driver.quit();
     }
 
